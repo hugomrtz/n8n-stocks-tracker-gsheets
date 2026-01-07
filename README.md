@@ -24,4 +24,8 @@ Fetches real-time prices for **5 stocks** from **Yahoo Finance** and stores them
 4. **Test** → 5 rows added to your sheet
 
 ## 🔧 Required nodes
-
+✅ Google Sheets (OAuth2)
+✅ Schedule Trigger (Cron)
+✅ 5x HTTP Request (Yahoo Finance API)
+✅ 1x Code JS (merge data)
+✅ 1x Google Sheets (Append)
